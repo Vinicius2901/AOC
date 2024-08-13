@@ -32,7 +32,7 @@ imprimirPar:
 	li $v0, 4
 	syscall
 	bnez $t0, main
-	beqz $t2, end
+
 imprimirImpar:
 	.data
 	textoImpar:

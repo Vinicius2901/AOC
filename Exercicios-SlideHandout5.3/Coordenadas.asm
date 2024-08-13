@@ -2,55 +2,39 @@
 	digiteX:
 		.asciiz "Digite o x;\n"
 		
-		.text
-		.globl main
 		
-.data
 	digiteY:
 		.asciiz "Digite o y:\n"
 		
-		.text
 		
-.data
 	origem:
 		.asciiz "A coordenada esta na origem\n"
 		
-		.text
 		
-.data
 	sobreEixoX:
 		.asciiz "A coordenada esta no eixo X\n"
 		
-		.text
 		
-.data
 	sobreEixoY:
 		.asciiz "A coordenada esta no eixo y\n"
 		
-		.text
 
-.data
 	PQuad:
 		.asciiz "A coordenada esta no 1 Quadrante\n"
 		
-		.text
 		
-.data
 	SQuad:
 		.asciiz "A coordenada esta no 2 Quadrante\n"
 		
-		.text
 		
-.data
 	TQuad:
 		.asciiz "A coordenada esta no 3 Quadrante\n"
 		
-		.text
 		
-.data
 	QQuad:
 		.asciiz "A coordenada esta no 4 Quadrante\n"
 		
+		.globl main
 		.text
 
 main:
